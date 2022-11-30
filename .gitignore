@@ -1,2 +1,4 @@
 
 *.pyc
+keys/token.txt
+keys/keys.json
