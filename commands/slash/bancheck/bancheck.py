@@ -53,7 +53,6 @@ class BanCheck(commands.Cog):
         data = r.json()
 
         latestbans = lastbans(999)
-        print(len(latestbans))
         bans = []
         for i in latestbans:
             split = i["ign"].split()
@@ -62,8 +61,6 @@ class BanCheck(commands.Cog):
                 bans.append(i)
 
         dmsg = ""
-        print(len(bans))
-        print(bans)
         if len(bans) < 1:
             dmsg = f"No data"
         else:
