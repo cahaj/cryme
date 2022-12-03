@@ -57,7 +57,6 @@ class BanCheck(commands.Cog):
         for i in latestbans:
             split = i["ign"].split()
             if split[1] == ign:
-                print(i)
                 bans.append(i)
 
         dmsg = ""
