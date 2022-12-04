@@ -1750,7 +1750,7 @@
   "wins": 10822,
   "fingerprint": "72KljlYjBXVPcKRhVRNSfk5gxPfKwVbBDww",
   "generated": 13
-},
+},{
   "_id": {
     "$oid": "61815c0936a8ab001b23ad99"
   },
@@ -1760,7 +1760,7 @@
   "isRevoked": false,
   "loggedIn": false,
   "usernames": [],
-  "hwids": []
+  "hwids": [],
   "owned": [
     "sumo"
   ],
@@ -2258,7 +2258,7 @@
 },{
   "_id": {
     "$oid": "618c435940a8c1001ad5dec3"
-  }
+  },
   "accessToken": "EDAQ6MP8i4EjUkyGGYRz",
   "isAdmin": false,
   "isBanned": false,
@@ -7892,7 +7892,7 @@
   "discAccessToken": "w8D0C5LYm1k5QA3cIjCGcpNBqYrs64",
   "__v": 2
 },
-},{
+{
   "_id": {
     "$oid": "61fe51e4935562335c1e3490"
   },
@@ -11386,7 +11386,7 @@
   "discRefreshToken": "ckFhHs4P319b0BFHZJR8pNL1x7xtjP",
   "discAccessToken": "Q1TaPQKjosINtigcP8jk1Rxt1mdDtd",
   "__v": 2
-},{,{
+},{
   "_id": {
     "$oid": "624c6caedc1407ad490a3dc9"
   },
@@ -12846,7 +12846,6 @@
   "discAccessToken": "kqnekrZ662eRnkWC8qIp1ocdM2lDNW",
   "__v": 1
 },{
-nigger
   "_id": {
     "$oid": "62858b45e41c72c1cefe2e10"
   },
