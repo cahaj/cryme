@@ -1,7 +1,7 @@
 import requests
 import json
 
-from keys.discordauth import Auth
+from utils.discordauth import Auth
 
 with open("keys/selflogins.json", "r") as f:
     json_object = json.load(f)

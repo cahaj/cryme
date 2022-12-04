@@ -9,7 +9,7 @@ import json
 
 import requests
 
-from commands.slash.bancheck.daisuki import lastbans
+from utils.daisuki import lastbans
 from format.headers import setuprequests
 from format.utils import ansi
 from utils.uuid import usernameToUuid

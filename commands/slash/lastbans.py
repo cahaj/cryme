@@ -6,7 +6,7 @@ import time
 import datetime
 import os
 
-from commands.slash.bancheck.daisuki import lastbans
+from utils.daisuki import lastbans
 
 class LastBans(commands.Cog):
     def __init__(self, bot) -> None:
