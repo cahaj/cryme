@@ -1,7 +1,6 @@
 import requests
 
-
-from format.headers import setuprequests
+from format.keys import setuprequests
 
 url, urlhyp, headers, headershyp = setuprequests()
 

@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 import requests
 from aiohttp import request
 
-from format.headers import setuprequests
+from format.keys import setuprequests
 
 from format.utils import ansi
 

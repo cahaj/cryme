@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 import requests
 from aiohttp import request
 
-from format.headers import setuprequests
+from format.keys import setuprequests
 from format.utils import ansi
 
 from utils.antisniper import antisniper, seraphBlacklist
@@ -64,7 +64,7 @@ class Blacklist(commands.Cog):
 ╰`•` discord id: **{discid}**
 """, color=discord.Color.from_rgb(47,49,54))
 
-        embed.add_field(name=f"Queue exit rates",value=f"""```ansi
+        embed.add_field(name=f"Bedwars queue exit rates",value=f"""```ansi
 {ansi(0, 33, 0)}Total\u001b[0m -> {ansi(0, 31, 0)}{total}
 {ansi(0, 33, 0)}Last 48 hours\u001b[0m -> {ansi(0, 31, 0)}{last48}
 {ansi(0, 33, 0)}Last 24 hours\u001b[0m -> {ansi(0, 31, 0)}{last24}    

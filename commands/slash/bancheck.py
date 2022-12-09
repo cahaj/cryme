@@ -10,7 +10,7 @@ import json
 import requests
 
 from utils.daisuki import lastbans
-from format.headers import setuprequests
+from format.keys import setuprequests
 from format.utils import ansi
 from utils.uuid import usernameToUuid
 from pprint import pprint
